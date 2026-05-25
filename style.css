@@ -1,11 +1,46 @@
 body {
-    background: #222;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
     color: white;
-    font-family: Arial;
-    text-align: center; 
-    margin-top: 100px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-    color: cyan;
+    color: #e50914;
+    font-size: 40px;
+}
+
+p {
+    color: #ccc;
+}
+
+.filme {
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.filme:hover {
+    transform: scale(1.05);
+}
+
+.filme img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.filme h2 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.filme p {
+    color: #bdbdbd;
 }
